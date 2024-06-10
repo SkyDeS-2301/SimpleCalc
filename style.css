@@ -4,13 +4,19 @@
     box-sizing: border-box;
 }
 body {
-    background: forestgreen;
+    background: midnightblue;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 .wrapper {
     max-width: 600px;
     margin: 0 auto;
     padding: 50px;
-    border: 2px solid darkgreen;
+    border: 2px solid white;
 }
 
 .nums {
@@ -23,20 +29,23 @@ body {
 
 .num {
     padding: 5px 10px;
-    border: 2px solid navy;
+    border: 2px solid white;
 }
 
 .signs {
     display: flex;
+    justify-content: center;
     gap: 20px;
-    border-bottom: 2px solid navy;
+    border-bottom: 2px solid white;
     padding-bottom: 15px;
     margin-bottom: 15px;
 }
 
 .button-sign {
     padding: 5px 15px;
-    border: 2px solid navy;
+    border: 2px solid white;
+    color: white;
+    font-size: 32px;
 }
 
 .out {
