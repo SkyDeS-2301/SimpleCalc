@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: forestgreen;
+}
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 2px solid darkgreen;
+}
+
+.nums {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.num {
+    padding: 5px 10px;
+    border: 2px solid navy;
+}
+
+.signs {
+    display: flex;
+    gap: 20px;
+    border-bottom: 2px solid navy;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.button-sign {
+    padding: 5px 15px;
+    border: 2px solid navy;
+}
+
+.out {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
